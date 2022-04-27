@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
@@ -60,7 +59,7 @@ public class Main {
 
                 Rome[] romes = Rome.values();
                 for (Rome s:romes) {
-                    if(s.ordinal()+1 == result) System.out.println(String.valueOf(s));
+                    if(s.ordinal()+1 == result) output = String.valueOf(s);
                 }
             }
             else {
